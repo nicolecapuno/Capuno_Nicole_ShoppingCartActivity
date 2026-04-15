@@ -66,4 +66,14 @@ I tested different scenarios such as invalid input, insufficient stock, duplicat
 
 The project is now complete and meets all the given requirements.
 
-AI USED
+I used
+
+“Fix errors in my C# shopping cart code” – I used this prompt to help identify and correct syntax and logical errors in my program, especially issues related to loops, conditions, and array handling. 
+
+“How to validate user input using int.TryParse in C#” – This helped me understand how to properly handle non-numeric input so the program would not crash when the user enters invalid data. 
+
+“How to prevent duplicate items in a cart using arrays” – I used this to learn how to check if a product already exists in the cart and update its quantity instead of adding a new entry. 
+
+“How to manage stock in a shopping cart system” – This guided me in correctly deducting product stock after an item is added to the cart and preventing purchases beyond available stock. 
+
+“How to calculate subtotal, grand total, and discount in C#” – This helped me implement the receipt section, including applying a 10% discount when the total reaches ₱5000 or more.
