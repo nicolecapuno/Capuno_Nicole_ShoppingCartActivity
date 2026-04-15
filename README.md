@@ -42,3 +42,26 @@ A loop was added so the user can continue adding items until they choose to stop
 
 By the end of today, the program can successfully manage multiple items, update quantities, and track remaining stock.
 
+Part 4 – Checkout, Discount, and Final Output (Day 4)
+
+Today I completed the final part of the system, which is the checkout process.
+
+I added functionality to display a receipt showing:
+
+Product names
+Quantities
+Subtotals
+
+The program now calculates the Grand Total of all items in the cart. I also implemented the discount condition: if the total reaches ₱5000 or more, a 10% discount is applied.
+
+The system then displays:
+
+Grand Total
+Discount amount (if applicable)
+Final Total after discount
+
+Lastly, I added a section that shows the updated remaining stock after checkout. This confirms that stock deductions were applied correctly.
+
+I tested different scenarios such as invalid input, insufficient stock, duplicate items, and discount application. After testing, I made small improvements to the output formatting to make it clearer and more readable.
+
+The project is now complete and meets all the given requirements.
