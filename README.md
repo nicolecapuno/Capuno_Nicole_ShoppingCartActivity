@@ -25,3 +25,5 @@ Preventing orders that exceed the available stock
 I also added clear error messages to guide the user whenever something goes wrong. This made the program easier to use and less prone to errors.
 
 At this stage, the system can properly accept and validate input, but it still does not store selected items in a cart.
+
+
