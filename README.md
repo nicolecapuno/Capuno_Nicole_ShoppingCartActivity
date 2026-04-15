@@ -65,3 +65,5 @@ Lastly, I added a section that shows the updated remaining stock after checkout.
 I tested different scenarios such as invalid input, insufficient stock, duplicate items, and discount application. After testing, I made small improvements to the output formatting to make it clearer and more readable.
 
 The project is now complete and meets all the given requirements.
+
+AI USED
