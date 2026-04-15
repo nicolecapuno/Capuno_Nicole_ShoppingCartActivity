@@ -26,4 +26,19 @@ I also added clear error messages to guide the user whenever something goes wron
 
 At this stage, the system can properly accept and validate input, but it still does not store selected items in a cart.
 
+Part 3 – Cart System and Stock Updates (Day 3)
+
+Today I worked on implementing the cart functionality. I created a CartItem class to store the selected product, quantity, and subtotal.
+
+I used a fixed-size array to hold cart items. Then I added logic to:
+
+Add items into the cart
+Detect duplicate products and update their quantity instead of adding a new entry
+Prevent adding items when the cart is already full
+
+I also connected the cart system to stock management. When a user adds an item, the program deducts the quantity from the product’s RemainingStock. This ensures that stock levels are always updated correctly.
+
+A loop was added so the user can continue adding items until they choose to stop. This made the system feel more complete and interactive.
+
+By the end of today, the program can successfully manage multiple items, update quantities, and track remaining stock.
 
