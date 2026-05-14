@@ -3,15 +3,13 @@ using System.Collections.Generic;
 
 class Product
 {
-    // Getters and Setters
+    // Properties (Getter and Setter)
     public int Id { get; set; }
     public string Name { get; set; }
     public double Price { get; set; }
     public int Stock { get; set; }
     public string Category { get; set; }
- 
-    // Constructor
-    public Product(int id, string name, double price, int stock, string category)
+ public Product(int id, string name, double price, int stock, string category)
     {
         Id = id;
         Name = name;
@@ -22,11 +20,10 @@ class Product
 }
 class CartItem
 {
-    // Getters and Setters
+    // Properties
     public Product Product { get; set; }
     public int Quantity { get; set; }
 
-    // Constructor
     public CartItem(Product product, int quantity)
     {
         Product = product;
@@ -35,7 +32,7 @@ class CartItem
 }
 class Order
 {
-    // Getters and Setters
+    // Properties
     public int ReceiptNumber { get; set; }
     public DateTime Date { get; set; }
     public double Total { get; set; }
